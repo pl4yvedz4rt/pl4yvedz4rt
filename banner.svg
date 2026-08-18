@@ -22,15 +22,15 @@
     <rect x="0" y="0" width="1400" height="3" fill="url(#topRule)"/>
     <rect x="0" y="0" width="1400" height="300" fill="url(#glow)"/>
 
-    <!-- faint watermark -->
+    
     <text x="230" y="215" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
           font-size="260" font-weight="700" fill="#ffffff" opacity="0.035"
           transform="rotate(-6 230 215)">&lt;/&gt;</text>
 
-    <!-- caret accent beside name -->
+    
     <rect x="40" y="95" width="5" height="148" rx="2.5" fill="#58a6ff"/>
 
-    <!-- name block -->
+  
     <text x="70" y="150" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"
           font-size="58" font-weight="800" letter-spacing="-1" fill="#f0f6fc">Joey Garcia</text>
 
@@ -41,7 +41,7 @@
     <text x="70" y="218" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"
           font-size="19" font-weight="500" fill="#8b949e">Aspiring Developer · building things that ship</text>
 
-    <!-- code editor mock -->
+    
     <g>
       <rect x="740" y="52" width="600" height="196" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
       <rect x="740" y="52" width="600" height="32" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
@@ -73,7 +73,6 @@
       <text x="765" y="225" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#f0f6fc">};</text>
     </g>
 
-    <!-- language strip footer, GitHub-style -->
     <g>
       <rect x="0"    y="288" width="200" height="12" fill="#f1e05a"/><!-- JavaScript -->
       <rect x="200"  y="288" width="200" height="12" fill="#3178c6"/><!-- TypeScript -->
