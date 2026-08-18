@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Joey Garcia, pl4yvedz4rt, Aspiring Developer">
+  <title>Joey Garcia — Aspiring Developer</title>
+
+  <defs>
+    <clipPath id="roundedFrame">
+      <rect x="0" y="0" width="1400" height="300" rx="18" ry="18"/>
+    </clipPath>
+    <radialGradient id="glow" cx="78%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#d2a8ff"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#roundedFrame)">
+    <!-- base -->
+    <rect x="0" y="0" width="1400" height="300" fill="#0d1117"/>
+    <rect x="0" y="0" width="1400" height="3" fill="url(#topRule)"/>
+    <rect x="0" y="0" width="1400" height="300" fill="url(#glow)"/>
+
+    <!-- faint watermark -->
+    <text x="230" y="215" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+          font-size="260" font-weight="700" fill="#ffffff" opacity="0.035"
+          transform="rotate(-6 230 215)">&lt;/&gt;</text>
+
+    <!-- caret accent beside name -->
+    <rect x="40" y="95" width="5" height="148" rx="2.5" fill="#58a6ff"/>
+
+    <!-- name block -->
+    <text x="70" y="150" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"
+          font-size="58" font-weight="800" letter-spacing="-1" fill="#f0f6fc">Joey Garcia</text>
+
+    <circle cx="76" cy="178" r="4.5" fill="#3fb950"/>
+    <text x="90" y="183" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+          font-size="17" fill="#3fb950">@pl4yvedz4rt</text>
+
+    <text x="70" y="218" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"
+          font-size="19" font-weight="500" fill="#8b949e">Aspiring Developer · building things that ship</text>
+
+    <!-- code editor mock -->
+    <g>
+      <rect x="740" y="52" width="600" height="196" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="740" y="52" width="600" height="32" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="740" y="76" width="600" height="8" fill="#161b22"/>
+
+      <circle cx="765" cy="68" r="6" fill="#ff5f56"/>
+      <circle cx="787" cy="68" r="6" fill="#ffbd2e"/>
+      <circle cx="809" cy="68" r="6" fill="#27c93f"/>
+
+      <rect x="838" y="58" width="98" height="20" rx="5" fill="#0d1117"/>
+      <text x="887" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+            font-size="12" fill="#8b949e">profile.ts</text>
+
+      <text x="765" y="117" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">
+        <tspan fill="#ff7b72">const</tspan><tspan fill="#f0f6fc"> developer = {</tspan>
+      </text>
+      <text x="765" y="144" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">
+        <tspan fill="#f0f6fc">  </tspan><tspan fill="#79c0ff">role</tspan><tspan fill="#f0f6fc">: </tspan><tspan fill="#a5d6ff">"Aspiring Developer"</tspan><tspan fill="#f0f6fc">,</tspan>
+      </text>
+      <text x="765" y="171" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">
+        <tspan fill="#f0f6fc">  </tspan><tspan fill="#79c0ff">stack</tspan><tspan fill="#f0f6fc">: [</tspan><tspan fill="#a5d6ff">"TS"</tspan><tspan fill="#f0f6fc">, </tspan><tspan fill="#a5d6ff">"Python"</tspan><tspan fill="#f0f6fc">, ...],</tspan>
+      </text>
+      <text x="765" y="198" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">
+        <tspan fill="#f0f6fc">  </tspan><tspan fill="#79c0ff">status</tspan><tspan fill="#f0f6fc">: </tspan><tspan fill="#a5d6ff">"Building cool stuff"</tspan>
+      </text>
+      <rect x="1053" y="186" width="8" height="16" fill="#3fb950">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+      <text x="765" y="225" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#f0f6fc">};</text>
+    </g>
+
+    <!-- language strip footer, GitHub-style -->
+    <g>
+      <rect x="0"    y="288" width="200" height="12" fill="#f1e05a"/><!-- JavaScript -->
+      <rect x="200"  y="288" width="200" height="12" fill="#3178c6"/><!-- TypeScript -->
+      <rect x="400"  y="288" width="180" height="12" fill="#3572A5"/><!-- Python -->
+      <rect x="580"  y="288" width="150" height="12" fill="#b07219"/><!-- Java -->
+      <rect x="730"  y="288" width="150" height="12" fill="#178600"/><!-- C# -->
+      <rect x="880"  y="288" width="120" height="12" fill="#e34c26"/><!-- HTML -->
+      <rect x="1000" y="288" width="130" height="12" fill="#00B4AB"/><!-- Dart -->
+      <rect x="1130" y="288" width="120" height="12" fill="#555555"/><!-- C -->
+      <rect x="1250" y="288" width="150" height="12" fill="#012456"/><!-- PowerShell -->
+    </g>
+  </g>
+</svg>
